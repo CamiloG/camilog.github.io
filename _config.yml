@@ -1,10 +1,10 @@
 # Jekyll configuration
 
-name: My blog
-description: A jekyll theme
+name: NN Voting System
+description: Voter-Verifiable Casting Correctness E-Voting System.
 
 # url is currently only used only for the RSS feed in feed.xml
-url: http://scotte.github.io
+url: https://camilog.github.io
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
@@ -22,7 +22,7 @@ gaaccount: ''
 # setting below must also be true. Individual posts can override 'comments' to
 # disable on a post-by-post basis
 disqus: ''
-comments: true
+comments: false
 
 permalink: /:year/:month/:title
 paginate: 3
