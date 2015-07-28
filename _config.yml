@@ -1,7 +1,7 @@
 # Jekyll configuration
 
-name: NN Voting System
-description: Voter-Verifiable Casting Correctness E-Voting System.
+name: Camilo J. Gómez
+description: Personal blog.
 
 # url is currently only used only for the RSS feed in feed.xml
 url: https://camilog.github.io
@@ -13,7 +13,7 @@ url: https://camilog.github.io
 baseurl: ''
 
 # This can be '' to hide the Github nav button
-github: 'camilog'
+github: ''
 
 # Set this to your UA-# value, or '' to disable the block completely
 gaaccount: ''
@@ -22,7 +22,7 @@ gaaccount: ''
 # setting below must also be true. Individual posts can override 'comments' to
 # disable on a post-by-post basis
 disqus: ''
-comments: false
+comments: true
 
 permalink: /:year/:month/:title
 paginate: 3
