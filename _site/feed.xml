@@ -1,109 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
 		<title>Camilo J. Gómez</title>
-		<description>Personal blog.</description>
-		<link>https://camilog.github.io</link>
-		<atom:link href="https://camilog.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		<description>Security, E-Voting, Crypto and more.</description>
+		<link>http://camilog.github.io</link>
+		<atom:link href="http://camilog.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>Jekyll Clean Theme</title>
-				<description>&lt;ul&gt;
-&lt;li&gt;Get it from &lt;a href=&quot;https://github.com/scotte/jekyll-clean&quot;&gt;github&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;See the &lt;a href=&quot;https://scotte.github.io/jekyll-clean&quot;&gt;live demo&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;See it &lt;a href=&quot;https://scotte.github.io&quot;&gt;in action on my own blog&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
+				<title>NICLabs Votación Electrónica</title>
+				
+				
+					<description>&lt;p&gt;Explicación sobre alguna de las bondades que nos puede ofrecer la Votación Electrónica, además de unas pequeñas aclaraciones sobre la dificultad de montar un buen sistema. Además se habla sobre lo que necesitamos en Chile para poder empezar a adoptar un Sistema de Votación Electrónica.&lt;/p&gt;
 
-&lt;p&gt;Welcome to the sample post for the Jekyll Clean theme.&lt;/p&gt;
-
-&lt;p&gt;A simple and clean Jekyll theme using &lt;a href=&quot;http://getbootstrap.com&quot;&gt;bootstrap&lt;/a&gt;
-(not to be confused with jekyll-bootstrap) that&amp;#39;s easy to modify and very
-modular in component and element reuse.&lt;/p&gt;
-
-&lt;p&gt;It uses Disqus for comments and includes Google Analytics support. Both of
-these features are disabled by default and can be enabled via _config.yml. You
-can also rip this code out of the templates if you like (footer.html and post.html).
-The beauty of Jekyll - keep things clean... Jekyll Clean!&lt;/p&gt;
-
-&lt;p&gt;The theme works well on mobile phones, using a collapsable nav bar and hiding the
-sidebar. The links pane in the sidebar is available on mobile through the nav menu,
-and you can do the same thing for any other sections added to the sidebar.&lt;/p&gt;
-
-&lt;p&gt;Don&amp;#39;t forget to occassionally merge against my upstream repository so you can get
-the latest changes. Pull requests are encouraged and accepted!&lt;/p&gt;
-
-&lt;h1 id=&quot;installation&quot;&gt;Installation&lt;/h1&gt;
-
-&lt;p&gt;If you don&amp;#39;t have a blog already on github, start by cloning this repository.
-Best to do that directly on github and then clone that down to your computer.&lt;/p&gt;
-
-&lt;p&gt;If you already do have a blog, You can certainly apply this theme to your existing
-blog in place, but then you won&amp;#39;t be able to merge as the theme changes. If you
-re-apply your blog history on top of this theme&amp;#39;s &lt;strong&gt;gh-pages&lt;/strong&gt; branch, it&amp;#39;s then
-easy to update to the latest version of the theme. You also don&amp;#39;t want to have to
-deal with resolving old conflicts from your existing history, so you may wish to to
-push your existing master off to a new branch so you have the old history and start
-a new branch with this as the start, merging in your _posts and other assets (after
-git rm&amp;#39;ing the current _posts.&lt;/p&gt;
-
-&lt;p&gt;Not ideal, but you have to make a choice - either apply it manually or base your
-blog off this theme&amp;#39;s branch. Either way it will work, and both have their own
-pros and cons.&lt;/p&gt;
-
-&lt;p&gt;You can setup an upstream tracking repository like so:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;$ git remote add upstream git@github.com:scotte/jekyll-clean.git
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;And now when you wish to merge your own branch onto the latest version of the
-theme, simply do:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;$ git fetch upstream
-$ git merge upstream/gh-pages
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Of course you will have to resolve conflicts for _config.yml, _includes/links-list.html,
-and _posts, and so on, but in practice this is pretty simple.&lt;/p&gt;
-
-&lt;p&gt;This is how I maintain my own blog which is based on this theme. The old history is
-sitting in an &lt;strong&gt;old-master&lt;/strong&gt; branch that I can refer to when I need to.&lt;/p&gt;
-
-&lt;h1 id=&quot;license&quot;&gt;License&lt;/h1&gt;
-
-&lt;p&gt;The content of this theme is distributed and licensed under a
-&lt;img src=&quot;/images/cc_by_88x31.png&quot; alt=&quot;License Badge&quot;&gt;
-&lt;a href=&quot;https://creativecommons.org/licenses/by/4.0/legalcode&quot;&gt;Creative Commons Attribution 4.0 License&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;This license lets others distribute, remix, tweak, and build upon your work,
-even commercially, as long as they credit you for the original creation. This
-is the most accommodating of licenses offered. Recommended for maximum
-dissemination and use of licensed materials.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;In other words: you can do anything you want with this theme on any site, just please
-provide a link to &lt;a href=&quot;https://github.com/scotte/jekyll-clean&quot;&gt;the original theme on github&lt;/a&gt;
-so I get credit for the original design. Beyond that, have at it!&lt;/p&gt;
-
-&lt;p&gt;This theme includes the following files which are the properties of their
-respective owners:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;js/bootstrap.min.js - &lt;a href=&quot;http://getbootstrap.com&quot;&gt;bootstrap&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;css/bootstrap.min.css - &lt;a href=&quot;http://getbootstrap.com&quot;&gt;bootstrap&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;js/jquery.min.js - &lt;a href=&quot;https://jquery.com&quot;&gt;jquery&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;images/cc_by_88x31.png - &lt;a href=&quot;https://creativecommons.org&quot;&gt;creative commons&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
-				<pubDate>Fri, 22 Aug 2014 19:25:06 -0400</pubDate>
-				<link>https://camilog.github.io/2014/08/jekyll-clean-theme</link>
-				<guid isPermaLink="true">https://camilog.github.io/2014/08/jekyll-clean-theme</guid>
-			</item>
-		
-			<item>
-				<title>Vivamus porttitor porta tortor</title>
-				<description>&lt;p&gt;Vivamus porttitor porta tortor at ullamcorper. Proin vel nisi magna. Vivamus vel velit laoreet, malesuada nunc nec, pulvinar velit. Vivamus sollicitudin ex quam, sit amet aliquet velit euismod in. Etiam rutrum augue orci, sed euismod risus vehicula eu. Proin quis velit mattis, sodales erat vitae, condimentum nulla. Vestibulum vitae imperdiet ligula. Etiam venenatis ultrices varius.&lt;/p&gt;
-
-&lt;p&gt;Vestibulum vulputate nulla hendrerit velit tempor, et fringilla urna placerat. In hac habitasse platea dictumst. Vestibulum sit amet molestie tortor, eu posuere magna. Donec rhoncus pharetra urna sed tempor. Aliquam erat volutpat. Nulla facilisi. Nam at ante condimentum, egestas massa sed, auctor orci. Aenean tincidunt, turpis et venenatis finibus, orci urna tempor ex, at mattis nisi nisi varius nisl. Pellentesque diam libero, dignissim vel nisl ut, placerat pharetra felis.&lt;/p&gt;
-
-&lt;p&gt;Curabitur venenatis neque eget odio tempor, vitae condimentum quam aliquam. Duis dui odio, auctor non ultricies nec, mollis nec elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eget elit at nisl auctor egestas. Vivamus nec turpis feugiat, dapibus metus et, fermentum lacus. Curabitur at blandit diam, non rutrum nulla. Quisque eget fermentum libero, in bibendum diam. Vestibulum eget porta est, in scelerisque metus. Donec in elit aliquet sapien ultrices tincidunt.&lt;/p&gt;
-</description>
-				<pubDate>Tue, 22 May 2012 19:25:06 -0400</pubDate>
-				<link>https://camilog.github.io/2012/05/Vivamus-porttitor-porta-tortor</link>
-				<guid isPermaLink="true">https://camilog.github.io/2012/05/Vivamus-porttitor-porta-tortor</guid>
+				
+				<pubDate>Wed, 05 Aug 2015 00:00:00 -0300</pubDate>
+				<link>http://camilog.github.io/votacion-youtube/</link>
+				<guid isPermaLink="true">http://camilog.github.io/votacion-youtube/</guid>
 			</item>
 		
 	</channel>

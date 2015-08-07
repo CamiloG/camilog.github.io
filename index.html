@@ -1,31 +1,56 @@
 ---
-layout: default
+layout: index
+description: the good site of life
 ---
-
 {% for post in paginator.posts %}
-<div class="article">
-    <div class="well">
-        <h1><a href="{{ site.baseurl}}{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }} - {{ post.title }}</a></h1>
-        {% if site.comments == true and post.comments == true and site.disqus != '' %}
-          <p class="author"><a href="{{ site.baseurl }}{{ post.url }}/#disqus_thread">Comments</a></p>
-        {% endif %}
-        <div class="content">
-            {{ post.content }}
-        </div>
-    </div>
-</div>
+    {% include article_index.html %}
 {% endfor %}
 
-<div class="pagination">
-  {% if paginator.previous_page %}
-      {% if paginator.previous_page == 1 %}
-        <a class="btn btn-default" href="{{ site.baseurl}}/index.html" class="previous">Newer</a>
-      {% else %}
-        <a class="btn btn-default" href="{{ site.baseurl}}/page{{ paginator.previous_page }}" class="previous">Newer</a>
-      {% endif %}
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a class="btn btn-default" href="{{ site.baseurl}}/page{{ paginator.next_page }}" class="next">Older</a>
-  {% endif %}
-</div>
+{% if paginator.total_pages > 1 %}
+    <div class="pagination">
+        <!-- link to first page -->
+        {% if paginator.total_pages > 3 %}
+            {% if paginator.page == 1 %}
+                <span class="disabled"><i class="fa fa-angle-double-left"></i></span>
+            {% else %}
+                <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-angle-double-left"></i></a>
+            {% endif %}
+        {% endif %}
+
+        <!-- previous link -->
+        {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-angle-left"></i></a>
+        {% else %}
+            <span class="disabled"><i class="fa fa-angle-left"></i></span>
+        {% endif %}
+
+        <!-- number links -->
+        {% capture start %}
+            {{ paginator.page | minus: 3 }}
+        {% endcapture %}
+
+        {% for i in (1..paginator.total_pages) limit: 5 offset: start %}
+            {% if i == paginator.page %}
+                <span class="disabled">{{ i }}</span>
+            {% else %}
+                <a href="/page/{{ i }}">{{ i }}</a>
+            {% endif %}
+        {% endfor %}
+
+        <!-- next link -->
+        {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-angle-right"></i></a>
+        {% else %}
+            <span class="disabled"><i class="fa fa-angle-right"></i></span>
+        {% endif %}
+
+        <!-- last page link -->
+        {% if paginator.total_pages > 3 %}
+            {% if paginator.page == paginator.total_pages %}
+                <span class="disabled"><i class="fa fa-angle-double-right"></i></span>
+            {% else %}
+                <a href="{{ site.baseurl | replace: '//', '/' }}/page/{{paginator.total_pages}}"><i class="fa fa-angle-double-right"></i></a>
+            {% endif %}
+        {% endif %}
+    </div>
+{% endif %}
