@@ -1,40 +1,24 @@
-{% include header.html %}
-
-<div class="container container-left">
-    <div class="row">
-        <div class="col-md-3 hidden-xs">
-            {% include sidebar.html %}
-        </div>
-        <div class="col-md-9">
-          <div class="article">
-            <div class="well">
-                <h1><a href="{{ site.baseurl}}{{ page.url }}">{{ page.date | date: "%b %-d, %Y" }} - {{ page.title }}</a></h1>
-            {% if site.comments == true and page.comments == true and site.disqus != '' %}
-                <p class="author"><a href="#disqus_thread">Comments</a></p>
-            {% endif %}
-            <div class="post-content">
-            {{ content }}
-            </div>
-            {% if page.comments %}
-            <div id="disqus_thread">
-                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-            </div>
-            {% endif %}
-            </div>
-          </div>
-          <div class="pagination">
-              {% if page.next %}
-                <a class="btn btn-default" href="{{ site.baseurl}}{{ page.next.url }}" class="next">Newer Post</a>
-              {% endif %}
-              {% if page.previous %}
-                <a class="btn btn-default" href="{{ site.baseurl}}{{ page.previous.url }}" class="previous">Older Post</a>
-              {% endif %}
+---
+layout: default
+---
+<div class="page-header">
+  <h1 class="page-title">{{page.title}}</h1>
+  <span class="page-list-date">
+    <i class="fa fa-calendar-o" aria-hidden="true"></i> {{ page.date | date: "%B %-d, %Y" }}
+  </span>
 </div>
-
-        </div>
-    </div>
+<div class="post-container">
+  {% if page.img %}
+   <img class="post-img" src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
+  {% endif %}
+  <div class="post-content">
+    <article>
+      {% if page.author %}
+      <div class="date-byline"><span><i class="fa fa-calendar-o" aria-hidden="true"></i> {{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span><span><i class="fa fa-pencil-square-o" aria-hidden="true"></i> {{page.author}}</span></div>
+      {% endif %}
+      {{page.content | markdownify}}
+    </article>
+    {% include share.html %}
+    {% include disqus.html %}
+  </div>
 </div>
-
-{% include disqus-comments.html %}
-{% include footer.html %}
