@@ -1,10 +1,8 @@
 title: Camilo J. Gomez
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Personal web page of Camilo Gomez.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://cjgomez.cl" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: ':title/'
 blog_theme: dark # Or use dark
 
@@ -17,10 +15,10 @@ pic: camilo-hd.png  # Place a 200x200 picture inside /assets/img/ folder and pro
 # Contact links
 email: cjgomez@dcc.uchile.cl # Add your Email address
 # phone: 044 825 5523 # Add your Phone number
-website: camilog.github.io # Add your website, do not add http://
+website: cjgomez.cl # Add your website, do not add http://
 linkedin: camilo-gómez-núñez-39848638/ # Add your Linkedin handle
 github: camilog # Add your Github handle
-twitter: '@milogomez_' # Add your Twitter handle
+twitter: '@milogomez__' # Add your Twitter handle
 
 # Tracker
 analytics: UA-86992080-1
