@@ -1,50 +1,37 @@
-title: Camilo J. Gomez
+title: Blog de Camilo Gómez
 description: > # this means to ignore newlines until "baseurl:"
-  Personal web page of Camilo Gomez.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://cjgomez.cl" # the base hostname & protocol for your site, e.g. http://example.com
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 permalink: ':title/'
-blog_theme: dark # Or use dark
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://cjgomez.cl" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
 
-# Profile information
-name: Camilo J. Gomez
-tagline: Persona
-about-description: Computer Engineer and M. Sc. in Computer Science Student at University of Chile. # Add Discription
-pic: camilo-hd.png  # Place a 200x200 picture inside /assets/img/ folder and provide the name of the file below
+# Author Settings
+author: Camilo Gómez # add your name
+author-img: camilo.png # add your photo
+about-author: Soy Ingeniero Civil en Computación, con ganas de hablar sobre la evolución de la democracia y votaciones electrónicas. # add description
+social-twitter: milogomez__ # add your Twitter handle
+social-facebook: # add your Facebook handle
+social-github: camilog # add your Github handle
+social-linkedin: # add your Linkedin handle
+social-email: cjgomez@protonmail.com # add your Email address
 
-# Contact links
-email: cjgomez@dcc.uchile.cl # Add your Email address
-# phone: 044 825 5523 # Add your Phone number
-website: cjgomez.cl # Add your website, do not add http://
-linkedin: camilo-gómez-núñez-39848638/ # Add your Linkedin handle
-github: camilog # Add your Github handle
-twitter: '@milogomez__' # Add your Twitter handle
+# Disqus
+discus-identifier: # add your discus identifier
 
 # Tracker
-analytics: UA-86992080-1
+analytics: # Google Analytics
 
-# Comments
-discus-identifier: # Add your Disqus identifier
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
 
-# Important settings
-assets:
-  sources:
-    - assets/fonts
-    - assets/img
-    - assets/js
-    - assets/stylesheets
+paginate: 8
+paginate_path: "/page/:num"
 
-# Build settings
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-
-gems:
-  - jekyll-feed
-  - jekyll-assets
-exclude:
-  - Gemfile
-  - Gemfile.lock
-
-include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

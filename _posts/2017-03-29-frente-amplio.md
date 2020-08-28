@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Voto por Internet en Frente Amplio... las dudas que surgen"
-description: La adopción de votación electrónica (a través de Internet en este caso) debe hacerse de manera más seria y analizando sus ventajas y desventajas.
-img: jekyll-poster.png
+title: Voto por Internet en Frente Amplio... las dudas que surgen
 date:   2017-03-29 15:15:00 +0200
-categories: general
+description: La adopción de votación electrónica (a través de Internet en este caso) debe hacerse de manera más seria y analizando sus ventajas y desventajas.
+img: frente-amplio.png
+categories: [general]
 ---
 Hace unos días el Frente Amplio manifestó que sus elecciones primarias se realizarán mediante una [consulta ciudadana usando votación electrónica vía Internet para el día 28 de mayo de 2017](http://www.eldesconcierto.cl/2017/03/28/frente-amplio-confirma-primarias-ciudadanas-para-el-28-de-mayo-con-inedita-votacion-electronica/).  Existen múltiples reparos por parte de expertos a desarrollar una elección vía Internet. En esta columna se resumen algunas de las dudas que surgen al escuchar la noticia, que espero sean respondidas en los próximos días por parte de la naciente coalición política.
 

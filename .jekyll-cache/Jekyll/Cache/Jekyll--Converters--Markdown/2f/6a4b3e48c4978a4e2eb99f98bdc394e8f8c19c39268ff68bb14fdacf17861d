@@ -1,0 +1,20 @@
+I"�<p>Antes de hablar sobre Votación Electrónica y temas relacionados, es necesario que se aclaren algunos términos que se ocuparán de manera reiterada en este blog, además de servir como una guía que se pueda acceder siempre que hayan dudas sobre algunos conceptos específicos. Además de esto se irán agregando progresivamente F.A.Q. (preguntas frecuentes) con la finalidad de ir aprendiendo y tener este post como una constante referencia para resolver distintas dudas.</p>
+
+<ol>
+  <li>
+    <p>Votación Electrónica: vamos a restringir decir que un proceso eleccionario posee votación electrónica si es que éste utiliza cualquier medio tecnológico a la hora de que los votantes marquen su selección, emitan el voto o en el proceso de conteo de éstos (no es necesario que se utilice tecnología en todos ellos, con que se utilice en alguno, ya se considerará como votación electrónica). Con esto se excluyen procesos eleccionarios que utilicen tecnología en, por ejemplo, a la hora de publicar los resultados (como el proceso en Chile) o que utilicen tecnología a la hora de inscribir y confirmar la identidad de los votantes (para más detalles dirigirse a Partes de una Elección).</p>
+  </li>
+  <li>
+    <p>Partes de una Elección: se separará el proceso eleccionario en las siguientes etapas:</p>
+    <ul>
+      <li>Confirmación de Identidad: típicamente este paso se produce en el día mismo de la votación, previo a que el votante marque su selección (hay casos en que puede realizarse en otro momento, pero ello se abarcará cuando se hable de algún sistema que realice ese cambio). La confirmación de identidad se realiza para verificar que la persona que quiere emitir su voto se encuentre calificada para realizarlo (esté inscrita en el padrón electoral), además de no sufrir de suplantación de identidad presentando alguna identificación o por un sistema biométrico.</li>
+      <li>Marcar la selección: paso en el cual el votante deja registro de su intención de voto en un medio en el cual posteriormente se pueda contabilizar. En una elección clásica, este paso corresponde a la marca que pone el votante en un papeleta de votación, frente al nombre del candidato de su preferencia.</li>
+      <li>Emitir el voto: una vez que el votante marcó su preferencia, debe entregar el medio en el cual dejó registrada su preferencia, para que a posteriori (al final de la elección) pueda ser contabilizado y sumado con el resto de los votos. Este paso correspondería al hecho de depositar la papeleta en la urna dispuesta en la mesa de votación.</li>
+      <li>Contabilizar los votos: al final de la elección, una vez cerradas las mesas, es necesario que se contabilicen y se sumen los votos individuales para obtener el resultado final de la elección. Esto puede ser realizado “a mano” contando uno por uno (como en una elección clásica) o de manera automatizada por algún mecanismo tecnológico.</li>
+      <li>Publicación de Resultados: el último paso es la publicación de los resultados, donde tanto los votantes como los candidatos conocen el resultado final de la elección y se decretan los ganadores resultantes del proceso.</li>
+    </ul>
+  </li>
+</ol>
+
+<p><em>NOTA</em>: existen procesos eleccionarios que pueden incorporar más pasos que los descritos anteriormente (dependiendo de los medios que se utilicen para realizar la votación) o que se junten dos o más pasos en uno. Pero en esencia es necesario que existan al menos los pasos descritos en la lista anterior.</p>
+:ET

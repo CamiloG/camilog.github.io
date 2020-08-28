@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Baja Participación Ciudadana: ¿Es la Votación Electrónica la solución"
-description: La votación electrónica no vendrá a solucionar un problema de fondo que posee la política chilena.
-img: jekyll-poster.png
+title: Baja Participación Ciudadana, ¿es la Votación Electrónica la solución?
 date:   2016-04-19 13:15:23 +0200
-categories: general
+description: La votación electrónica no vendrá a solucionar un problema de fondo que posee la política chilena.
+img: crowd.jpg
+categories: [general]
 ---
 Mucha gente aboga que la principal ventaja y beneficio que aportaría adoptar Votación Electrónica en Chile sería aumentar la participación ciudadana en las elecciones a nivel nacional, la cual no superó el 50% en la última elección presidencial de 2013. Tomando como base que consideramos que la baja participación en las elecciones es un problema (lo cual, en lo personal, yo lo pondría en duda), revisemos porque considero que la votación electrónica no es la solución.
 

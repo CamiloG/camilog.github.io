@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Votación Electrónica y Proceso Eleccionario"
-description: Relación entre la Votación Electrónica y los Procesos Eleccionarios tradicionales, enfocado en el caso chileno.
-img: jekyll-poster.png
+title: Votación Electrónica y Proceso Eleccionario
 date:   2016-02-25 14:50:00 +0200
-categories: general
+description: Relación entre la Votación Electrónica y los Procesos Eleccionarios tradicionales, enfocado en el caso chileno.
+img: computer.jpg
+categories: [general]
 ---
 En el primer post de este blog me gustaría enfocarlo en esclarecer tres conceptos que me parecen imprescindibles a la hora de hablar de Sistemas de Votación Electrónica y temas relacionados. El primero será definir en términos exactos de qué trata una Votación Electrónica, es decir, que requisitos se deben cumplir para que digamos que una elección utiliza votación electrónica; el segundo y el tercero son más bien de caracter general sobre los Procesos Eleccionarios, específicamente los pasos que se siguen al momento de la votación y los requisitos de seguridad (derechos de los votantes) que una elección debe cumplir para que sea válida.
 

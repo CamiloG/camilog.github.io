@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "¿Es recomendable adoptar Votación Electrónica?"
-description: Análisis de las ventajas y desventajas que presenta la adopción de un sistema de votación electrónica.
-img: jekyll-poster.png
+title: ¿Es recomendable adoptar Votación Electrónica?
 date:   2016-04-13 17:05:12 +0200
-categories: general
+description: Análisis de las ventajas y desventajas que presenta la adopción de un sistema de votación electrónica.
+img: question.jpg
+categories: [general]
 ---
 Quisiera abrir la conversación sobre Votación Electrónica con la pregunta que siempre se realiza y que genera mayor polémica. Un pequeño aviso antes de empezar a responderla, es que estoy fuertemente sesgado por mi background computacional y científico (ciencias de la computación), que me promueve no cegarme a nada y explorar todas las posibles soluciones a un problema, promoviendo el uso de la tecnología (cuando ésta ayude a la ciudadanía a resolver problemas). Si mi especialización fuera mera de desarrollo de software mi respuesta sería distinta, de la misma manera que si viniera del área de las humanidades y ciencias sociales. Por ende el debate está abierto y no existe respuesta exacta a esta pregunta. Con esto en mente, empezaré a argumentar mi respuesta.
 
